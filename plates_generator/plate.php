@@ -12,7 +12,7 @@ imagesavealpha($im, true);
 $bg = imagecolorallocate($im, 0, 0, 0);
 $textcolor = imagecolorallocate($im, 0, 0, 0);
 
-$font =  __DIR__.'\assets\din1451alt.ttf';
+$font =  'assets/din1451alt.ttf';
 
 $type_space = imagettfbbox(81, 0, $font, strtoupper($_GET["plate"]));
 
